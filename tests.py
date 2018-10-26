@@ -55,3 +55,12 @@ try:
         print "Bucket Sort incorrect"
 except:
     print "Bucketsort function errored or is incomplete"
+
+try:
+    from shell import shell_sort
+    if(shell_sort(list(nums)) == sortedNums):
+        print "Shell Sort success"
+    else:
+        print "Shell Sort incorrect"
+except:
+    print "ShellSort function errored or is incomplete"
