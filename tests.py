@@ -64,3 +64,12 @@ try:
         print "Shell Sort incorrect"
 except:
     print "ShellSort function errored or is incomplete"
+
+try:
+    from brick import brick_sort
+    if(brick_sort(list(nums)) == sortedNums):
+        print "Brick Sort success"
+    else:
+        print "Brick Sort incorrect"
+except:
+    print "BrickSort function errored or is incomplete"
